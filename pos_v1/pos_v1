@@ -8,7 +8,7 @@
 // 10min
 
 #2.将传入的barcode和原清单对比, 得到用户购买物品的详细清单
-输入：inputs : [String];
+输入：commArr : [Object];
 输出：commArr : [{
 	barcode : String;
 	count : Number;
