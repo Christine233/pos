@@ -30,14 +30,9 @@
 }]
 // 10min
 
-#4.判断商品是否为满二赠一,选出用户购物的满二减一的商品的条码
+#4.判断商品是否为满二赠一,选出用户购物的满二减一的商品的条码,并将该商品“小计”钱数减其单价得到最终小计
 （调用loadPromotions()方法，得到discBC:[String];和用户购买物品的条码比对）
 输入：discBC:[String]; commArr:[Object]
-输出：discCustBC:[String];
-// 10min
-
-#5.将满二减一的商品“小计”钱数减其单价得到最终小计
-输入：discCustBC:[String]; commArr:[Object]
 输出：commArr : [{
 	barcode : String;
 	count : Number;
@@ -48,12 +43,12 @@
 }]
 // 10min
 
-#6. 计算商品“总计”钱数                          
+#5. 计算商品“总计”钱数                          
 输入： commArr : [Object] ;
 输出：totalNum : number
 // 5min
 
-#7. 打印输出清单                                  
+#6. 打印输出清单                                  
 输入： commArr:[Object]; totalNum:number;
 输出：list:[String];
  // 15min
